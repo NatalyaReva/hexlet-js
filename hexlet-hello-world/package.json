@@ -8,6 +8,8 @@
   },
   "author": "NataliR",
   "license": "ISC",
-  "description": "FirstProject"
+  "description": "FirstProject",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
-
