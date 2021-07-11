@@ -1,15 +1,2 @@
-export const getWeekends = (format) => {
-    const longFormat = ['saturday', 'sunday'];
-    const shortFormat = ['sat', 'sun'];
-   
-    switch (format) {
-      case 'long':
-    return longFormat
-    case 'short':
-        return shortFormat;
-      default:
-        return longFormat;
-    }
-  };
-  
- 
+import _ from "lodash";
+console.log(_.last(["one", "two"]));
